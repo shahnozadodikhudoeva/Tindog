@@ -1,0 +1,170 @@
+body {
+    font-family: "Montserrat-Black";
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/* Titles */
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.title_image {
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width:1028px) {
+    .title_image {
+        position: static;
+        transform: rotate(-25deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+.download_btn {
+    margin: 5% 3% 5% 0%;
+    text-align: left;
+}
+
+
+/* Navigation Bar  */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-family: "Ubuntu";
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Testimonial Part  */
+
+#testimonials.colored-section {
+    background-color: #ef8172;
+}
+
+.feedback {
+    font-size: 2rem;
+}
+
+.doggy {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press  */
+
+#press.colored-section {
+    background-color: #ef8172;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press_logos {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+
+/* Features */
+
+.feature_title {
+    margin: 2%;
+    font-size: 1.5rem;
+}
+
+#features {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Pricing Section  */
+
+.pricing_title {
+    margin: 2%;
+    font-size: 1.5rem;
+}
+
+#pricing {
+    padding: 20px;
+}
+
+.fees {
+    font-size: 2rem;
+}
+
+.advertisment {
+    font-size: 2rem;
+}
+
+
+/* Call to Action */
+
+
+/* Footer */
