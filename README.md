@@ -1,1 +1,1 @@
-# Tindog
+Learning HTML and CSS
